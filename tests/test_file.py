@@ -1,14 +1,14 @@
 import pytest
-from src.model import *
+from src.item import *
 
-test_create_product():
+test_create_item():
     #arrange
     name = 'Desk'
     price = '5.00'
     count = 3
 
     #act
-    product = Product(name, price, count)
+    product = Item(name, price, count)
 
     #assert
     assert(Product.get_name() == name)
