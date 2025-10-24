@@ -1,7 +1,7 @@
 import pytest
 from src.item import *
 
-test_create_item():
+def test_create_item():
     #arrange
     name = 'Desk'
     price = '5.00'
